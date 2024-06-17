@@ -1,6 +1,6 @@
 def discriminant(nu_a, nu_b, nu_c):
     num_d = nu_b**2 - 4 * nu_a * nu_c
-    print(num_d)
+    print(f'Дискрименант D = {num_d}')
     if num_d > 0:
         x1 = ((-nu_b)+(num_d**0.5))/2 * nu_a
         x2 = ((-nu_b)-(num_d**0.5))/2 * nu_a
